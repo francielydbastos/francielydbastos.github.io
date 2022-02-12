@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/1372251.jpg");
+  background-color: #000000;
+  background-size: cover;
+
+  font-family: "News Cycle", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.avatar {
+  max-width: 160px;
+  max-height: 160px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.infos {
+  margin-left: 16px;
+}
+
+.infos h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.infos h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-family: "News Cycle", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-color: #ecf4ff;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+
+  padding: 8px 32px;
+  margin-top: 8px;
+
+  background: #dae1eb;
+
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1em;
+}
+
+.dark {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeKQNvuUpiv3OrsDgbpOYMoNTYryWDp3sll49wswsUyDi31rUOpYUm_V2KWKlzwKF4kzo&usqp=CAU");
+  background-color: #000000;
+  background-size: cover;
+}
+
+.dark .container {
+  background: #333439;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  background: #29292b;
+}
+
+.dark .tema button {
+  background: #333439;
+  color: #ecf4ff;
+  border-color: #ecf4ff;
+}
