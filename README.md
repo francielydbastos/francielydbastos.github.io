@@ -1,2 +1,3 @@
 # francielydbastos.github.io
-Imersão Dev FrontEnd Alura 2021 portifolio.
+Portfolio with the main projects I developed during Alura's Imersão Dev Front End in 2021. 
+Access in francielydbastos.github.io
